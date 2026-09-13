@@ -46,7 +46,7 @@ class NoteDetailsScreen extends StatelessWidget {
                     children: [
                       CircleAvatar(
                         radius: 25,
-                        child: const Icon(
+                        child:  Icon(
                           Icons.note_alt,
                         ),
                       ),

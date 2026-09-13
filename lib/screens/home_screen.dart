@@ -131,13 +131,15 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
+        title:  Text(
           'My Notes',
           style: TextStyle(
             fontWeight: FontWeight.bold,
+            color: Colors.white,
           ),
         ),
-        centerTitle: false,
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
       ),
 
       floatingActionButton: FloatingActionButton.extended(
@@ -151,7 +153,6 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [
 
-            // Search
             TextField(
               controller: searchController,
               decoration: InputDecoration(
