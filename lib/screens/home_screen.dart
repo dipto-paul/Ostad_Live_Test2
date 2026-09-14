@@ -311,6 +311,7 @@ class _HomeScreenState extends State<HomeScreen> {
               PopupMenuItem(
                 value: 'delete',
                 child: Row(
+
                   children: [
                     Icon(Icons.delete),
                     SizedBox(width: 10),
