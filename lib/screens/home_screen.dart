@@ -243,6 +243,8 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget buildNoteCard(NoteModel note) {
+
+
     return Card(
       margin: const EdgeInsets.only(bottom: 12),
       elevation: 1,
