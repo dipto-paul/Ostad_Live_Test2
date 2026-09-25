@@ -200,8 +200,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget buildEmptyState() {
-    final bool isSearching =
-        searchController.text.trim().isNotEmpty;
+    final bool isSearching = searchController.text.trim().isNotEmpty;
 
     return Center(
       child: Column(
