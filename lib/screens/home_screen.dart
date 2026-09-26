@@ -190,6 +190,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   final note = filteredNotes[index];
 
                   return buildNoteCard(note);
+
                 },
               ),
             ),
